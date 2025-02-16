@@ -1,0 +1,45 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  button.electronics {
+    background: #007bff;
+    color: white;
+  }
+  
+  button.electronics:hover {
+    background: #0056b3;
+  }
+  
+  button.clothing {
+    background: #ff416c;
+    color: white;
+  }
+  
+  button.clothing:hover {
+    background: #c92a51;
+  }
+  
+  button.furniture {
+    background: #28a745;
+    color: white;
+  }
+  
+  button.furniture:hover {
+    background: #1e7e34;
+  }
+  
